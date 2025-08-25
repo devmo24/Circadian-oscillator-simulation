@@ -27,7 +27,7 @@ steps = 20000
 current_step = 0
 save_step_interval = 10
 
-with open("PER2 simulation.csv", "w") as file:
+with open("Circadian simulation.csv", "w") as file:
     file.write("Time,"
                "Active A (%),"
                "B\n")
