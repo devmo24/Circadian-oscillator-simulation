@@ -53,24 +53,24 @@ Internal variables that are used for calculations are listed below and should no
 * current_step
 
 Variables that can be changed:
-A is the initial abundance of Protein A
-A_active_percent is the initial percent of Protein A that is active and therefore producing Protein B
-B is the initial abundance of Protein B
-B_production_rate is the initial rate of production of Protein B
-bacteria is the initial amount of bacteria present. This variable is only used if the exposure is set to "stimulation."
-bacteria_add_time is the time (in steps) when the bacteria should be added. This variable is only used if the exposure is set to "stimulation."
-bacteria_to_add is the amount of bacteria to be added. This variable is only used if the exposure is set to "stimulation."
-exposure is the type of bacterial exposure to be simulated. This can be either "stimulation," which models a one-time addition of bacteria, or "oscillation," which models a continuous fluctuation of bacterial abundance
-simulate_desync controls whether desynchronization should be simulated. This can be either True or False
-desync_factor is the rate of desynchronization, given in percent. This variable is only used if simulate_desync is set to True
-desync_sampling is the sampling size of desynchronization. A greater number produces more accurate desynchronization simulations. This variable is only used if simulate_desync is set to True
-maximum_production_rate is the maximum production rate (per step) of Protein B
-production_efficiency is the ratio of how much Protein B can be made per step to the amount of active Protein A
-production_change_rate is the rate, in percent, at which the production rate of Protein B is changed per step
-degradation_rate is the rate, in percent, at which Protein B is degraded per step
-repression_efficiency is the ratio of how much Protein A is inactivated to the amount of Protein B
-repression_rate is the rate, in percent, at which Protein A is activated or inactivated per step
-steps is the number of steps to be simulated (1 step is 1/10th of an hour)
-save_step_interval is the interval at which data should be saved (e.g., an interval of 10 indicates that every 10th step should be saved)
+* A is the initial abundance of Protein A
+* A_active_percent is the initial percent of Protein A that is active and therefore producing Protein B
+* B is the initial abundance of Protein B
+* B_production_rate is the initial rate of production of Protein B
+* bacteria is the initial amount of bacteria present. This variable is only used if the exposure is set to "stimulation."
+* bacteria_add_time is the time (in steps) when the bacteria should be added. This variable is only used if the exposure is set to "stimulation."
+* bacteria_to_add is the amount of bacteria to be added. This variable is only used if the exposure is set to "stimulation."
+* exposure is the type of bacterial exposure to be simulated. This can be either "stimulation," which models a one-time addition of bacteria, or "oscillation," which models a continuous fluctuation of bacterial abundance
+* simulate_desync controls whether desynchronization should be simulated. This can be either True or False
+* desync_factor is the rate of desynchronization, given in percent. This variable is only used if simulate_desync is set to True
+* desync_sampling is the sampling size of desynchronization. A greater number produces more accurate desynchronization simulations. This variable is only used if simulate_desync is set to True
+* maximum_production_rate is the maximum production rate (per step) of Protein B
+* production_efficiency is the ratio of how much Protein B can be made per step to the amount of active Protein A
+* production_change_rate is the rate, in percent, at which the production rate of Protein B is changed per step
+* degradation_rate is the rate, in percent, at which Protein B is degraded per step
+* repression_efficiency is the ratio of how much Protein A is inactivated to the amount of Protein B
+* repression_rate is the rate, in percent, at which Protein A is activated or inactivated per step
+* steps is the number of steps to be simulated (1 step is 1/10th of an hour)
+* save_step_interval is the interval at which data should be saved (e.g., an interval of 10 indicates that every 10th step should be saved)
 
 
