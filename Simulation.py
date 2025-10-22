@@ -14,7 +14,7 @@ delta_bacteria = 0
 bacteria_add_time = 600
 bacteria_to_add = 300
 exposure = "stimulation"
-simulate_desync = True
+simulate_desync = False
 desync_factor = 10 # percent
 desync_sampling = 500
 
