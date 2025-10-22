@@ -1,10 +1,14 @@
 # Circadian oscillator simulation
 
-This repository contains the Python script used to simulate a circadian oscillator in the paper, "An unrecognized host response to microbial exposure resets circadian timing." This code has been tested on Linux but should operate without issues on Windows and Mac. The packages `math` and `random` are required but should be bundled with a default installation of Python and therefore requires no further installation.
+This repository contains the Python script used to simulate a circadian oscillator in the paper, "An unrecognized host response to microbial exposure resets circadian timing." This code has been tested on Linux but should operate without issues on Windows and Mac. The packages `math` and `random` are required but should be bundled with a default installation of Python and therefore requires no further installation. The script itself does not require installation.
+
+When downloaded, the script is loaded with pre-configured settings that can be used to test the simulation. To edit these settings, see the section below. The output of the pre-configured setting is a CSV file which, when graphed, should produce an oscillation with a period of 24 hours. At a certain point in time, bacteria will be added, which will lead to a spike in Protein B and an altered phase after the stimulation. The simulation is expected to take less than 1 minute.
+
+The project is released under the GNU General Public License version 3. In brief, users are free to download, share, and modify any and all parts of this project; however, any projects derived from the IJOQ project must also be released under the GNU General Public License as well. The repository is maintained by Devons Mo.
 
 # Using the script
 1. First, ensure that Python 3 is installed.
-   * On Windows, download and install the latest version of Python 3 from https://www.python.org/downloads/
+   * On Windows, download and install the latest version of Python 3 from https://www.python.org/downloads/. This is expected to take less than 10 minutes.
    * On Mac and Linux, Python 3 should be pre-installed. Go to the next step.
 2. Download the code by clicking on the green "Code" button at the top of the repository page, then selecting "Download ZIP."
 3. Once downloaded, extract the files from the compressed ZIP file.
