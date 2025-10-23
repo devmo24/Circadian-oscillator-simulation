@@ -4,7 +4,7 @@ This repository contains the Python script used to simulate a circadian oscillat
 
 When downloaded, the script is loaded with pre-configured settings that can be used to test the simulation. To edit these settings, see the section below. The output of the pre-configured setting is a CSV file which, when graphed, should produce an oscillation with a period of 24 hours. At a certain point in time, bacteria will be added, which will lead to a spike in Protein B and an altered phase after the stimulation. The simulation is expected to take less than 1 minute.
 
-The project is released under the GNU General Public License version 3. In brief, users are free to download, share, and modify any and all parts of this project; however, any projects derived from the IJOQ project must also be released under the GNU General Public License as well. The repository is maintained by Devons Mo.
+The project is released under the GNU General Public License version 3. In brief, users are free to download, share, and modify any and all parts of this project; however, any projects derived from this project must also be released under the GNU General Public License as well. The repository is maintained by Devons Mo.
 
 # Using the script
 1. First, ensure that Python 3 is installed.
