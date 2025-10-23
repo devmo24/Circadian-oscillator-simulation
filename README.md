@@ -15,7 +15,7 @@ The project is released under the GNU General Public License version 3. In brief
 4. Run the Python code.
    * On Windows, double click the file to run the script.
    * On Mac, double click the file to open the file. In the menu on the top of the screen, click on "Run" to run the script.
-   * On Linux, the script can be run using terminal commands. First, locate where the file is. In the terminal, change the directory using the cd command so that working directory is where the file is (e.g. if the file is at ~/Downloads/Circadian-oscillator-simulation, then use this command: cd ~/Downloads/Circadian-oscillator-simulation/). Then, run the file using the following command: `python3 Simulation.py`.
+   * On Linux, the script can be run using terminal commands. First, locate where the file is. In the terminal, change the directory using the cd command so that working directory is where the file is (e.g. if the file is at ~/Downloads/Circadian-oscillator-simulation, then use this command: `cd ~/Downloads/Circadian-oscillator-simulation/`). Then, run the file using the following command: `python3 Simulation.py`.
 
 # Modifying the simulation settings
 All variables that control the simulation are listed at the top of the script:
